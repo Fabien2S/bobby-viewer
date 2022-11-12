@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.fabien2s.bobby.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "item.ItemStackMixin"
+  ],
+  "client": [
+    "model.HumanoidModelMixin",
+    "renderer.GameRendererMixin",
+    "renderer.LevelRendererMixin",
+    "renderer.PlayerRendererMixin",
+    "renderer.layer.HumanoidArmorLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
