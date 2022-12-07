@@ -8,7 +8,8 @@
     "renderer.GameRendererMixin",
     "renderer.LevelRendererMixin",
     "renderer.PlayerRendererMixin",
-    "renderer.layer.HumanoidArmorLayerMixin"
+    "renderer.layer.HumanoidArmorLayerMixin",
+    "renderer.layer.ItemInHandLayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
