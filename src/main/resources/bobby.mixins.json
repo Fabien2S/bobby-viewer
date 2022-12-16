@@ -8,6 +8,7 @@
     "renderer.GameRendererMixin",
     "renderer.LevelRendererMixin",
     "renderer.PlayerRendererMixin",
+    "renderer.layer.CustomHeadLayerMixin",
     "renderer.layer.HumanoidArmorLayerMixin",
     "renderer.layer.ItemInHandLayerMixin"
   ],
