@@ -2,7 +2,7 @@ package dev.fabien2s.bobby.util;
 
 import net.minecraft.client.Camera;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.player.Player;
 
@@ -13,7 +13,7 @@ public class EntityRendererPredicate {
     private EntityRendererPredicate() {
     }
 
-    public static boolean skipCustomRendering(LivingEntity entity) {
+    public static boolean skipCustomRendering(Entity entity) {
         // FIXME Should we support other entities?
         if (!(entity instanceof Player)) {
             return true;
